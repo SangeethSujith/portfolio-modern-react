@@ -1,12 +1,15 @@
 import { useTheme } from "@emotion/react"
 import {
-  faYoutube,
   faGithub,
   faGitlab,
-  faReddit,
-  faNpm,
   faSteam,
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faWhatsapp,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 import { Card, CardGroup } from "../components"
 
@@ -19,42 +22,63 @@ export const SocialMedia = () => {
         icon={faGithub}
         color={color.dark}
       >
-        PrettyCoffee
+        SangeethSujith
       </Card>
       <Card
-        url={"https://gitlab.com/PrettyCoffee"}
+        url={"https://gitlab.com/SangeethSujith"}
         icon={faGitlab}
-        color={color.purple}
-      >
-        PrettyCoffee
-      </Card>
-      <Card
-        url={"https://www.npmjs.com/~prettycoffee"}
-        icon={faNpm}
-        color={color.green}
-      >
-        ~prettycoffee
-      </Card>
-      <Card
-        url={"https://www.youtube.com/channel/UCtQqZ6EhvprvC0H2tLN2EcA"}
-        icon={faYoutube}
-        color={color.red}
-      >
-        PrettyCoffee
-      </Card>
-      <Card
-        url={"https://www.reddit.com/user/SpinatMixxer"}
-        icon={faReddit}
         color={color.orange}
       >
-        u/SpinatMixxer
+        SangeethSujith
       </Card>
       <Card
-        url={"https://steamcommunity.com/id/PrettyCoffee/"}
+        url={"https://www.facebook.com/sangeeth.sujith.7/"}
+        icon={faFacebook}
+        color={color.green}
+      >
+        Sangeeth Sujith
+      </Card>
+      <Card
+        url={"https://www.instagram.com/the__john__wick/"}
+        icon={faInstagram}
+        color={color.red}
+      >
+        @the__john__wick
+      </Card>
+      <Card
+        url={"https://wa.me/+918547104788"}
+        icon={faWhatsapp}
+        color={"#28D146"}
+      >
+        Sangeeth Sujith
+      </Card>
+      <Card
+        url={"mailto:sangeethps2255@gmail.com"}
+        icon={faEnvelope}
+        color={color.yellow}
+      >
+        Email
+      </Card>
+      <Card
+        url={"https://x.com/Offensivetech69"}
+        icon={faTwitter}
+        color={color.dark}
+      >
+        @Offensivetech69
+      </Card>
+      <Card
+        url={"https://t.me/Homelander47"}
+        icon={faTelegram}
+        color={color.dark}
+      >
+        @Offensivetech69
+      </Card>
+      <Card
+        url={"https://steamcommunity.com/profiles/76561199349790197"}
         icon={faSteam}
         color={color.blue}
       >
-        PrettyCoffee
+        JOHNWICKX
       </Card>
     </CardGroup>
   )
