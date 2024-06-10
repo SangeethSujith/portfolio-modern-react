@@ -14,7 +14,7 @@ import {
   ScrollspyContent,
   Section,
 } from "../components"
-import logo from "../data/media/logo.webp"
+import logo from "../data/media/logo.png"
 import { Intro } from "./Intro"
 import { Playground } from "./Playground/Playground"
 import { Profile } from "./Profile"
@@ -53,7 +53,7 @@ const Avatar = styled.div`
       object-fit: contain;
       width: 100%;
       height: 100%;
-      mix-blend-mode: normal;
+      // mix-blend-mode: normal;
     }
   `}
 `
