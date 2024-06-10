@@ -71,7 +71,7 @@ export const SocialMedia = () => {
         icon={faTelegram}
         color={color.dark}
       >
-        @Offensivetech69
+        @Homelander47
       </Card>
       <Card
         url={"https://steamcommunity.com/profiles/76561199349790197"}
