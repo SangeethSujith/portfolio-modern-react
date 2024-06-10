@@ -23,13 +23,13 @@ const schemes = {
     light: "#f8f8f2",
     grey: "#c4c4c3",
 
-    red: "#ff5555",
-    green: "#50fa7b",
+    red: "#C8347D",
+    green: "#0165E1",
     yellow: "#f1fa8c",
     blue: "#6272a4",
     purple: "#bd93f9",
     cyan: "#8be9fd",
-    orange: "#ffb86c",
+    orange: "	#FC6D26",
   },
 
   //https://github.com/arcticicestudio/nord
@@ -63,7 +63,7 @@ const schemes = {
   },
 }
 
-const currentTheme = schemes.atom
+const currentTheme = schemes.dracula
 
 const space = {
   xxs: "0.125rem",
