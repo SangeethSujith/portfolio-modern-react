@@ -18,7 +18,7 @@ export const SocialMedia = () => {
   return (
     <CardGroup>
       <Card
-        url={"https://github.com/PrettyCoffee"}
+        url={"https://github.com/SangeethSujith"}
         icon={faGithub}
         color={color.dark}
       >
