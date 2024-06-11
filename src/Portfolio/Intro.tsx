@@ -18,14 +18,15 @@ export const Intro = () => (
   <>
     <Animation />
     <TyperContainer>
+      I am Sangeeth Sujith,
       <Typer
         text={`Welcome to my \n`}
         textCarousel={[
           "portfolio",
           "passion",
-          "hobby",
+          // "hobby",
           "project",
-          "playground",
+          // "playground",
         ]}
         timing={{ typeStrokes: 100, deleteStrokes: 50, waiting: 2000 }}
       />
