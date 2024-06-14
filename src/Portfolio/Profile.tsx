@@ -114,24 +114,30 @@ export const Profile = () => (
     <LeftColumn>
       <Picture src={avatar} />
       <Skills>
-        B Sc Informatics
+        <hr />
+        <K>Currently Studying</K>
         <br />
-        German | English
+        MS Research in Computer and Systems Engineering
+        <hr />
+        B Sc Computer Science Graduate
+        <hr />
+        English | Malayalam | Hindi | German
         <br />
-        <K>Skills:</K> CSS, TypeScript, React, Redux, Web Design
+        <K>Skills:</K> CSS, TypeScript, React, React Native, Redux, Tailwind CSS
       </Skills>
     </LeftColumn>
     <Text>
       <h2>About Me</h2>
       <p>
-        I am a 25 year old professional <K>web developer</K> which acquired his{" "}
-        informatics degree in 2020 and is employed since then as a web
-        developer.
+        I am a 23 year old professional <K>web developer</K> who acquired his{" "}
+        computer science degree in 2021 and is employed since then as a web
+        developer. Now I am currently studying at TU Ilmenau for a{" "}
+        <K>Masters degree </K>on Research in Computer and Systems Engineering
         <br />
         <br />
         Most of the time I develop <K>frontend</K> apps with <K>React</K> and{" "}
-        <K>Typescript</K>, try to <K>design</K> my own stuff and build cool web
-        apps while learning new things.
+        <K>Javascript or Typescript</K>, try to <K>design</K> my own stuff and
+        build cool web apps while learning new things.
       </p>
     </Text>
   </StyledProfile>
