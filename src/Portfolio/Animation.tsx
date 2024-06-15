@@ -12,6 +12,7 @@ const StyledAnimation = styled.div`
     grid-template-columns: auto auto auto;
     align-items: flex-end;
     margin-bottom: 50px;
+    margin-top: 50px;
 
     @keyframes jump {
       15% {
