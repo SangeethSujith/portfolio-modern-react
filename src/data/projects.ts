@@ -1,13 +1,15 @@
 import { getTheme } from "../components"
 import avatar from "./media/avatar.webp"
-import cookie from "./media/cookie.webp"
-import fluidity from "./media/fluidity.svg"
-import gnrc from "./media/gnrc.webp"
-import goAudio from "./media/go-audio.webp"
-import kitty from "./media/kitty.webp"
-import minigue from "./media/minigue.webp"
-import stpg from "./media/react-startpage.svg"
-import smug from "./media/smug.webp"
+import ayurware from "./media/ayurware.png"
+import chetana from "./media/chetana.png"
+import logo from "./media/logo.png"
+import plusgoals from "./media/plusgoals.png"
+import qrcode from "./media/qrcode.png"
+import soluna from "./media/soluna.png"
+import stocknikalo from "./media/stocknikalo.png"
+import tayari from "./media/tayari.png"
+import teamvos from "./media/teamvos.jpg"
+import terrapay from "./media/terrapay.png"
 
 const { color } = getTheme()
 
@@ -15,115 +17,104 @@ export type Project = {
   title: string
   description: string
   image: string
-  repoUrl: string
+  repoUrl?: string
   demoUrl?: string
   docsUrl?: string
 }
-
-/*
- _______________
-< /r/startpages >
- ---------------
-  \
-  \ ^__^
-    (oo)\________
-    (__)\        )\/\
-        ||----W ||
-        ||      ||
-*/
 
 type Year = { year: number; color: string; projects: Project[] }
 
 export const projects: Year[] = [
   {
-    year: 2022,
+    year: 2024,
     color: color.orange,
     projects: [
       {
-        title: "[WIP] - Cookie Credit Card",
-        description:
-          "My first fullstack web app that helps keeping track of your cookie debts. For a colleague to whom I owe some cookies. A lot actually.",
-        image: cookie,
-        repoUrl: "https://github.com/PrettyCoffee/cookie-credit-card",
-      },
-      {
-        title: "MiniguePT (Frontend)",
-        description:
-          "Web chat client for MiniguePT, a chatbot created by a lovely friend <3 \nThis is also my first SolidJs project.",
-        image: minigue,
-        demoUrl: "https://chatty.rhostruct.de/",
-        repoUrl: "https://github.com/Eeeeelias/miniguept-chat",
-      },
-      {
-        title: "Yet another generic startpage",
-        description:
-          "The fourth startpage in the list, demonstrating the usage of the @startpage library.",
-        image: gnrc,
-        repoUrl:
-          "https://github.com/PrettyCoffee/yet-another-generic-startpage",
-        demoUrl: "https://prettycoffee.github.io/yet-another-generic-startpage",
-      },
-    ],
-  },
-  {
-    year: 2021,
-    color: color.red,
-    projects: [
-      {
-        title: "@startpage",
-        description:
-          "A library that provides tools and components to facilitate the process of creating a browser start page.",
-        image: stpg,
-        repoUrl: "https://github.com/PrettyCoffee/startpage",
-        docsUrl: "https://prettycoffee.github.io/startpage/",
-      },
-      {
-        title: "Portfolio v3",
+        title: "Portfolio v2",
         description:
           "The latest version of my portfolio. You are currently looking at it.",
         image: avatar,
-        repoUrl: "https://github.com/PrettyCoffee/PrettyCoffee.github.io",
+        repoUrl: "https://github.com/SangeethSujith/portfolio-modern-react",
+        demoUrl: "https://sangeethsujith.github.io/",
       },
       {
-        title: "Fluidity",
+        title: "Tayari - A Private Social Media for Congress Party Of India",
         description:
-          "My third browser startpage featuring a unique design and many options for customizability such as appearance, bookmarks and keyword forwarding.",
-        image: fluidity,
+          "My first Social Media made using ReactJS. I used bootstrap as per client request and used TanStack Query and Redux for state management.",
+        image: tayari,
+        demoUrl: "http://tayari.co.in/",
+      },
+      {
+        title: "Ayurware",
+        description:
+          "Ayurware is a React Native app that helps the hospitals in consultation management. The app is written in TypeScript and styled with Native Wind.",
+        image: ayurware,
+      },
+    ],
+  },
+  {
+    year: 2023,
+    color: color.red,
+    projects: [
+      {
+        title: "PlusGoals",
+        description:
+          "An online student portal for learning and works as an exam and student can submit their works into it.",
+        image: plusgoals,
+        demoUrl: "https://app.plusgoals.com/",
+      },
+      {
+        title: "StockNikalo - [WIP]",
+        description:
+          "An E-commerce website made for industry level machinery selling and buying in bulk and retail.",
+        image: stocknikalo,
+      },
+      {
+        title: "Chetana Medicals",
+        description:
+          "Chetana Medicals is an android app created to ease their CRM work with various employees from managers, sales-person and medical representatives to view, report, enquire and manage employees using individual logins.",
+        image: chetana,
         repoUrl: "https://github.com/PrettyCoffee/fluidity",
         demoUrl: "https://prettycoffee.github.io/fluidity/",
       },
+      {
+        title: "Portfolio v1",
+        description:
+          "My first portfolio. No longer maintained please dont look at it.",
+        image: logo,
+        repoUrl: "https://github.com/SangeethSujith/portfolio-simple-dark",
+        demoUrl: "https://sangeeth-portfoliodark.vercel.app/",
+      },
+      {
+        title: "QR-Code Reader/Tester App",
+        description:
+          "My test project to implement QR code in diffrent projects",
+        image: qrcode,
+        repoUrl: "https://github.com/SangeethSujith/qr_tester",
+        demoUrl: "https://qr-tester.vercel.app/",
+      },
     ],
   },
   {
-    year: 2020,
+    year: 2022,
     color: color.purple,
     projects: [
       {
-        title: "B/W Kitty",
-        description:
-          "My second browser startpage, featuring bookmarks, a searchbar and color theming.",
-        image: kitty,
-        repoUrl: "https://github.com/PrettyCoffee/b-w-kitty",
-        demoUrl: "https://prettycoffee.github.io/b-w-kitty/",
+        title: "EZmenu for Soluna Beach Web",
+        description: "A hotel order booking and client management",
+        image: soluna,
       },
       {
-        title: "Raspberry Pi Audio-API",
+        title: "Terrapay",
         description:
-          "A go library which allows to programmatically time and mix the playback of sound files.",
-        image: goAudio,
-        repoUrl: "https://gitlab.com/PrettyCoffee/raspberry-pi-audio-api",
+          "A webcilent for bank to bank communication and ledger management system.",
+        image: terrapay,
       },
-    ],
-  },
-  {
-    year: 2019,
-    color: color.blue,
-    projects: [
       {
-        title: "smugLoader",
-        description: 'A browser startpage based on the "smug dancin" meme.',
-        image: smug,
-        repoUrl: "https://gitlab.com/PrettyCoffee/smugloader",
+        title: "Team VOS",
+        description:
+          "Team VOS is an app created for the Vaidyaratnam Oushadhasala to ease their CRM work with various employees from managers, sales-person and medical representatives to view, report, enquire and manage employees using individual logins.",
+        image: teamvos,
       },
     ],
   },
