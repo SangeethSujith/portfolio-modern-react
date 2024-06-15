@@ -2,7 +2,6 @@ import { css } from "@emotion/react"
 import styled from "@emotion/styled"
 
 import { Carousel, CarouselItem } from "../../components"
-import { ShadowPlay } from "./ShadowPlay"
 
 const Text = styled.div`
   ${({ theme: { color } }) => css`
@@ -14,25 +13,44 @@ const Text = styled.div`
     max-width: 300px;
   `}
 `
+const links = [
+  { href: "https://uiverse.io/", text: "uiverse.io" },
+  { href: "https://daisyui.com/", text: "daisyUI" },
+  { href: "https://ui.shadcn.com/", text: "shadcn/ui" },
+  { href: "https://ui.aceternity.com/", text: "Aceternity UI" },
+  { href: "https://getbootstrap.com/", text: "Bootstrap" },
+  { href: "https://picocss.com/", text: "Pico CSS" },
+]
 
 export const Playground = () => {
   return (
     <Carousel>
-      <CarouselItem headline="Work in progress">
+      <CarouselItem headline="Personal Info About Me">
         <Text>
           <h3>
-            I couldnt think of a fitting text yet, take this cat ipsum instead:
+            As a React and React Native enthusiast. I love creating awesome,
+            user-friendly apps with React’s component-based magic. I’m also a
+            big fan of Tailwind CSS for styling and various UI frameworks that
+            speed up development. Always learning, I keep up with the latest
+            React features and trends. When I’m not coding, I enjoy exploring
+            sipping good coffee. Let’s build something amazing!
           </h3>
-          <br />
-          Instantly break out into full speed gallop across the house for no
-          reason. Cry for no apparent reason scream at teh bath yet destroy the
-          blinds. Take a big fluffing crap 💩 purr sleep all day whilst slave is
-          at work, play all night whilst slave is sleeping and run at 3am yet
-          purr.
         </Text>
       </CarouselItem>
-      <CarouselItem headline="Playing with shadows">
-        <ShadowPlay />
+      <CarouselItem headline="Websites i like to visit when building new UI">
+        <Text>
+          <h3>
+            <ul>
+              {links.map((link, index) => (
+                <li key={index}>
+                  <a href={link.href} target="_blank" rel="noreferrer">
+                    {link.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </h3>
+        </Text>
       </CarouselItem>
     </Carousel>
   )
