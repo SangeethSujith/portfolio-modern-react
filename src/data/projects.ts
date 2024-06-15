@@ -74,8 +74,6 @@ export const projects: Year[] = [
         description:
           "Chetana Medicals is an android app created to ease their CRM work with various employees from managers, sales-person and medical representatives to view, report, enquire and manage employees using individual logins.",
         image: chetana,
-        repoUrl: "https://github.com/PrettyCoffee/fluidity",
-        demoUrl: "https://prettycoffee.github.io/fluidity/",
       },
       {
         title: "Portfolio v1",
