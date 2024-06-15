@@ -1,9 +1,11 @@
 {
+  "homepage": "https://sangeethsujith.github.io/portfolio-modern-react",
   "name": "portfolio-modern-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build && gh-pages -d build",
     "deploy": "npm run build && gh-pages -d build",
     "build": "react-scripts build",
     "lint": "eslint --ext .ts,.tsx src/",
