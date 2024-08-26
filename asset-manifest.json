@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/portfolio-modern-react/static/js/main.097d6eda.js",
+    "static/js/453.bf23fe75.chunk.js": "/portfolio-modern-react/static/js/453.bf23fe75.chunk.js",
+    "static/media/tayari.png": "/portfolio-modern-react/static/media/tayari.7e6143a8f24b68e03783.png",
+    "static/media/ayurware.png": "/portfolio-modern-react/static/media/ayurware.dca05cb7c06797b3993e.png",
+    "static/media/logo.png": "/portfolio-modern-react/static/media/logo.352f284a7b16165dc2dd.png",
+    "static/media/avatar.webp": "/portfolio-modern-react/static/media/avatar.f27f79bda5c1027a5645.webp",
+    "static/media/terrapay.png": "/portfolio-modern-react/static/media/terrapay.724203f6a4593aa2b9f2.png",
+    "static/media/qrcode.png": "/portfolio-modern-react/static/media/qrcode.e4e5dd96d78670ee8551.png",
+    "static/media/soluna.png": "/portfolio-modern-react/static/media/soluna.7398326aa4231a65d0f1.png",
+    "static/media/computer.svg": "/portfolio-modern-react/static/media/computer.ba55b973926c3c2bf8ef2b7a37a3927b.svg",
+    "static/media/stocknikalo.png": "/portfolio-modern-react/static/media/stocknikalo.92f87ec9c8e833917a20.png",
+    "static/media/teamvos.jpg": "/portfolio-modern-react/static/media/teamvos.d918fb60a53ecf3d87f8.jpg",
+    "static/media/chetana.png": "/portfolio-modern-react/static/media/chetana.859811690d85060fabe3.png",
+    "static/media/tablet.svg": "/portfolio-modern-react/static/media/tablet.97fe932b7b08017a14e468d5fb1f1425.svg",
+    "static/media/smartphone.svg": "/portfolio-modern-react/static/media/smartphone.e18b1faa66785d8107b42c211ba595dc.svg",
+    "index.html": "/portfolio-modern-react/index.html",
+    "main.097d6eda.js.map": "/portfolio-modern-react/static/js/main.097d6eda.js.map",
+    "453.bf23fe75.chunk.js.map": "/portfolio-modern-react/static/js/453.bf23fe75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.097d6eda.js"
+  ]
+}
