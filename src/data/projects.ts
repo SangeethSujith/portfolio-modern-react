@@ -2,6 +2,7 @@ import { getTheme } from "../components"
 import avatar from "./media/avatar.webp"
 import ayurware from "./media/ayurware.png"
 import chetana from "./media/chetana.png"
+import feet from "./media/feet.png"
 import logo from "./media/logo.png"
 import plusgoals from "./media/plusgoals.png"
 import qrcode from "./media/qrcode.png"
@@ -25,6 +26,20 @@ export type Project = {
 type Year = { year: number; color: string; projects: Project[] }
 
 export const projects: Year[] = [
+  {
+    year: 2025,
+    color: color.light,
+    projects: [
+      {
+        title: "The5FeetMelody",
+        description:
+          "The 5 Feet Melody is a thoughtfully crafted personal website designed to showcase the musical journey of Elan Achamma Thomas. Built with a focus on simplicity and elegance, the site offers a seamless experience for visitors to explore Elan's musical creations, performances, and personal insights.",
+        image: feet,
+        repoUrl: "https://github.com/SangeethSujith/portfolio-modern-react",
+        demoUrl: "https://www.the5feetmelody.com/",
+      },
+    ],
+  },
   {
     year: 2024,
     color: color.orange,
